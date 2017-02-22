@@ -1,6 +1,8 @@
 require "sinatra"
 require "uuid"
 
+set :bind, '0.0.0.0'
+
 get "/" do
   erb :index
 end
